@@ -1,0 +1,17 @@
+.title KiCad schematic
+U4 out plot_db
+C2 Net-_C2-Pad1_ GND 7p
+X2 unconnected-_X2-Pad1_ Net-_C2-Pad1_ Net-_R4-Pad2_ Net-_v1-Pad2_ unconnected-_X2-Pad5_ out Net-_v1-Pad1_ unconnected-_X2-Pad8_ lm_741
+U5 out plot_v1
+v2 in GND sine
+R1 GND Net-_R1-Pad2_ 10k
+U1 in plot_v1
+C1 in Net-_C1-Pad2_ 8pf
+R2 GND Net-_C1-Pad2_ 310.30
+v1 Net-_v1-Pad1_ Net-_v1-Pad2_ 5
+R3 Net-_R1-Pad2_ Net-_R3-Pad2_ 10k
+X1 unconnected-_X1-Pad1_ Net-_C1-Pad2_ Net-_R1-Pad2_ Net-_v1-Pad2_ unconnected-_X1-Pad5_ Net-_R3-Pad2_ Net-_v1-Pad1_ unconnected-_X1-Pad8_ lm_741
+R5 Net-_C2-Pad1_ Net-_R3-Pad2_ 1.59
+R4 GND Net-_R4-Pad2_ 10k
+R6 Net-_R4-Pad2_ out 10k
+.end
